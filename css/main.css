@@ -19,8 +19,26 @@
 .banner-img{
     height: 500px;
 }
+.designby{
+    height: 400px;
+}
+.downloadimg{
+    height: 350px;
+}
 #home-section{
     background: url(../img/header2.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
+#vectorsmart{
+    background: url(../img/vectorsmart-background.png);
+    background-repeat: no-repeat;
+
+}
+.question-details{
+    background-color: aliceblue;
+}
+/* #unlimited{
+    background: url(../img/unlimited.png);
+    background-repeat: no-repeat;
+} */
