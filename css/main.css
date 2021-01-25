@@ -1,5 +1,51 @@
+.unicolor{
+    color: #242f51;
+}
+.body-para{
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
 .navbar-custom{
-    background-color: wheat;
+    background-color: white;
+}
+.custom-li li a{
+    color: #242f51;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+
+}
+.try-free-btn{
+    background-color: #2500f9;
+    border-radius: 38px;
+    font-size: 15px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    padding: 20px 41px 20px 41px;
+}
+.watch-demo{
+    font-size: 16px;
+    line-height: 44px;
+    color: #2500f9;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-left: 3%;
+}
+.style-h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+.home-p{
+    color: #616368;
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
 }
 .group{
     background-color: #242f51;
@@ -19,11 +65,9 @@
 .banner-img{
     height: 500px;
 }
-.designby{
-    height: 400px;
-}
 .downloadimg{
-    height: 350px;
+    height: 100%;
+    width: 100%;
 }
 #home-section{
     background: url(../img/header2.png);
@@ -35,10 +79,133 @@
     background-repeat: no-repeat;
 
 }
+#scnd-background{
+    background: url(../img/animation-background.png);
+    background-repeat: no-repeat;
+}
 .question-details{
     background-color: aliceblue;
 }
-/* #unlimited{
-    background: url(../img/unlimited.png);
-    background-repeat: no-repeat;
-} */
+.extend-home-img{
+   height: 37px;
+   padding-right: 4%;
+}
+.smart-jack1{
+    font-size: 20px;
+    line-height: 58px;
+    color: #f55767;
+    font-weight: 600;
+    font-family: "Poppins";
+    
+}
+.smart-jack2{
+    font-size: 20px;
+    line-height: 58px;
+    color: #2563ff;
+    font-weight: 600;
+    font-family: "Poppins";
+
+}
+.smart-jack3{
+    font-size: 20px;
+    line-height: 58px;
+    color: #40975f;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.awsome-header{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.smart-header{
+    font-size: 40px;
+    line-height: 50px;
+    color: #242f51;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.design-header{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.choose-header{
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    font-family: "Poppins"
+}
+.fre-question{
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.down-header{
+    font-size: 48px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+.edit-css{
+    font-size: 18px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.editor-div{
+    width: 48%;
+    background-color:#daeff8;
+    border-radius: 35px;
+}
+.editor-icon-backgrnd{
+    background-color: gold;
+    border-radius: 20px;
+    width: 27px;
+    height: 27px;
+    float: left;
+    margin-right: 3%;
+}
+.editor-img{
+    margin-left: 21%;
+    margin-top: 8%;
+    width: 60%;
+}
+.circle-pink{
+    background-color: antiquewhite;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 12%;
+}
+.circle-blue{
+    background-color: aliceblue;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 12%;
+}
+.circle-green{
+    background-color: #e9fee9;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 12%;
+}
+/* #circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%
+  } */

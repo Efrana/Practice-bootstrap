@@ -15,6 +15,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <!-- font awesome link -->
     <script src="https://use.fontawesome.com/f2988b3c12.js">
 
@@ -24,34 +25,34 @@
 <body>
     <!-- header start -->
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light navbar-custom">
+    <nav class="navbar navbar-expand-md  navbar-custom py-5">
         <div class="container">
-            <div class="row">
-                <a href="#" class="navbar-brand"><img src="img/Header.png" class="img-responsive" alt="Logo" /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Key Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Testiminial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">FAQ</a>
-                        </li>
-                    </ul>
-                </div>
+            <a href="#" class="navbar-brand"><img src="img/Header.png" class="img-responsive" alt="Logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto custom-li">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Key Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Testiminial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn try-free-btn" style="margin-left: 35px;">Try for free</button>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -60,13 +61,19 @@
     <header id="home-section">
         <div class="dark-overlay">
             <div class="home-inner container">
-                <div class="row-h1 d-flex align-items-center">
-                    <div class="col-lg-8 d-none d-lg-block">
-                        <span>#editors choice app for 2020</span>
-                        <h1>Best app for your <br />modern life style</h1>
-                        <p>increase productivity with a simple to-do app for <br />managing your personal budgets</p>
-                        <button>Try for free</button>
-                        <a href="#">Watch demo video</a>
+                <div id="scnd-background" class="row-h1 d-flex align-items-center">
+                    <div class="col-lg-8">
+                        <div class="editor-div">
+                            <div class="editor-icon-backgrnd">
+                                <img src="img/edit-icon.png" class="img-responsive editor-img " alt="Logo" />
+                            </div>
+                            <span class="edit-css">#1Editors choice app for 2020</span>
+                        </div>
+                        <h1 class="unicolor style-h1">Best app for your <br />modern life style</h1>
+                        <p class="home-p">increase productivity with a simple to-do app for <br />managing your personal
+                            budgets</p>
+                        <button class="btn try-free-btn">Try for free</button>
+                        <a href="#" class="watch-demo">Watch demo video</a>
                     </div>
                     <div class="col-lg-4">
                         <img src="img/Vector Smart Object.png" class="img-responsive banner-img" alt="Logo" />
@@ -76,24 +83,26 @@
         </div>
     </header>
     <!-- header end -->
+
     <!-- trusted by companies start -->
     <section>
         <div class="container mx-auto">
             <div class="row">
                 <div class="col text-center py-5">
-                    <span>Trusted by companies like</span>
+                    <span class="unicolor">Trusted by companies like</span>
                     <div class="py-4">
-                        <img src="img/southwest.png" alt="Logo" />
-                        <img src="img/anubis.png" alt="Logo" />
-                        <img src="img/Group 56.png" alt="Logo" />
-                        <img src="img/express.png" alt="Logo" />
-                        <img src="img/maniac.png" alt="Logo" />
+                        <img class="extend-home-img" src="img/southwest.png" alt="Logo" />
+                        <img class="extend-home-img" src="img/anubis.png" alt="Logo" />
+                        <img class="extend-home-img" src="img/Group 56.png" alt="Logo" />
+                        <img class="extend-home-img" src="img/express.png" alt="Logo" />
+                        <img class="extend-home-img" src="img/maniac.png" alt="Logo" />
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- trusted by companies  end -->
+
     <!-- feature section start  -->
     <section>
         <div class="container">
@@ -104,37 +113,41 @@
                     </div>
                 </div>
                 <div class="col-md-6 py-5">
-                    <h3>Awsome apps feature</h3>
-                    <p>increase productivity with a simple to-do app for<br />managing your personal budgets</p>
+                    <h3 class="awsome-header">Awsome apps <br />features</h3>
+                    <p class="body-para">increase productivity with a simple to-do app for<br />managing your personal
+                        budgets</p>
                     <div class="d-flex">
-                        <div class="p-4 align-self-start">
+                        <div class="p-4 align-self-start circle-pink">
                             <img src="img/Home page (4).png" class="img-responsive" alt="Logo" />
                         </div>
                         <div class="p-4 align-self-end">
-                            <h5>Fast performance</h5>
-                            <p>get youe blood test delivered at <br />home collec a sample from the<br />news your bolld
-                                test</p>
+                            <h5 class="smart-jack1">Fast performance</h5>
+                            <p class="body-para">Get youe blood test delivered at <br />home collec a sample from
+                                the<br />news your bolld
+                                test.</p>
                         </div>
                     </div>
                     <div class="d-flex">
-                        <div class="p-4 align-self-start">
+                        <div class="p-4 align-self-start circle-blue">
                             <img src="img/Home page (5).png" class="img-responsive" alt="Logo" />
                         </div>
                         <div class="p-4 align-self-end">
-                            <h5>Fast performance</h5>
-                            <p>get youe blood test delivered at <br />home collec a sample from the<br />news your bolld
-                                test</p>
+                            <h5 class="smart-jack2">Prototyping</h5>
+                            <p class="body-para">Get youe blood test delivered at <br />home collec a sample from
+                                the<br />news your bolld
+                                test.</p>
                         </div>
 
                     </div>
                     <div class="d-flex">
-                        <div class="p-4 align-self-start">
+                        <div class="p-4 align-self-start circle-green">
                             <img src="img/Home page (6).png" class="img-responsive" alt="Logo" />
                         </div>
                         <div class="p-4 align-self-end">
-                            <h5>Fast performance</h5>
-                            <p>get youe blood test delivered at <br />home collec a sample from the<br />news your bolld
-                                test</p>
+                            <h5 class="smart-jack3">Vector Editing</h5>
+                            <p class="body-para">Get youe blood test delivered at <br />home collec a sample from
+                                the<br />news your bolld
+                                test.</p>
                         </div>
                     </div>
                 </div>
@@ -142,38 +155,46 @@
         </div>
     </section>
     <!-- feature section end  -->
+
     <!-- smart jeckpot section start -->
     <section>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 ">
-                    <h2>Smart jackpots that<br /> you may love this <br />anytime & anywhere</h2>
+                    <h2 class="smart-header">Smart jackpots that<br /> you may love this <br />anytime & anywhere</h2>
 
                 </div>
                 <div class="col-md-6 ">
-                    <p>The rise of mobile devices transform the way <br />we consume information interly and the world's
-                        most<br />elevant channel such asfacebook</p>
+                    <p class="body-para">The rise of mobile devices transform the way <br />we consume information
+                        interly and the world's
+                        most<br />elevant channel such as facebook</p>
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-md-4 py-5">
-                    <img src="img/cal.png" class="img-responsive" alt="Logo" />
-                    <h5>Autometic payouts</h5>
-                    <p>The rise of mobile devices transform the way <br />we consume
-                        information interly and the world's most<br />elevant channel such asfacebook</p>
+                    <div class="circle-pink">
+                        <img src="img/cal.png" class="img-responsive" alt="Logo" />
+                    </div>
+                    <h5 class="smart-jack1">Autometic payouts</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collec a simple from the<br />news
+                        your blood tests</p>
 
                 </div>
                 <div class="col-md-4 py-5">
-                    <img src="img/net.png" class="img-responsive" alt="Logo" />
-                    <h5>Network effects</h5>
-                    <p>The rise of mobile devices transform the way <br />we consume
-                        information interly and the world's most<br />elevant channel such asfacebook</p>
+                    <div class="circle-blue">
+                        <img src="img/net.png" class="img-responsive" alt="Logo" />
+                    </div>
+                    <h5 class="smart-jack2">Network effects</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collec a simple from the<br />news
+                        your blood tests</p>
                 </div>
                 <div class="col-md-4 py-5">
-                    <img src="img/thumbs.png" class="img-responsive" alt="Logo" />
-                    <h5>Bigger Rewords mehods</h5>
-                    <p>The rise of mobile devices transform the way <br />we consume information interly and the world's
-                        most<br />elevant channel such asfacebook</p>
+                    <div class="circle-green">
+                        <img src="img/thumbs.png" class="img-responsive" alt="Logo" />
+                    </div>
+                    <h5 class="smart-jack3">Bigger Rewords mehods</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collec a simple from the<br />news
+                        your blood tests</p>
                 </div>
             </div>
         </div>
@@ -186,13 +207,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/design-by.png" class="img-responsive  designby" alt="Logo" />
+                    <img src="img/design-by.png" class="img-responsive  downloadimg" alt="Logo" />
                 </div>
-                <div class="col-md-6  d-flex align-items-center d-none d-lg-block">
-                    <h1>Design and build by<br />the latest code<br />inegration</h1>
-                    <p>The rise of mobile devices transform the way we<br /> consume information interly and the world's
+                <div class="col-md-6 ">
+                    <h1 class="design-header">Design and build by<br />the latest code<br />inegration</h1>
+                    <p class="body-para">The rise of mobile devices transform the way we<br /> consume information
+                        interly and the world's
                         most<br />elevant channel such asfacebook</p>
-                    <button>Learn more</button>
+                    <button class="btn try-free-btn">Learn more</button>
                 </div>
             </div>
         </div>
@@ -202,9 +224,9 @@
     <section>
         <div class="container py-5">
             <div class="py-5 text-center">
-                <h3>Why you should choose <br />our app</h3>
-                <p>The rise of mobile devices transform the way we consume
-                    information entirely<br /> and the world's most elevant channel such asfacebook</p>
+                <h3 class="design-header">Why you should choose <br />our app</h3>
+                <p class="body-para">The rise of mobile devices transform the way we consume
+                    information entirely<br /> and the world's most elevant channel such as facebook</p>
             </div>
         </div>
     </section>
@@ -212,43 +234,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center">
+                    <!-- <div class="circle-pink"> -->
                     <img src="img/devs.png" class="img-responsive" alt="Logo" />
-                    <h5>App Development</h5>
-                    <p>Get your blood tests delivered at<br />home collect a sample from the<br />news your blood test
+                    <!-- </div> -->
+                    <h5 class="choose-header">App Development</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collect a sample from the<br />news
+                        your blood test
                     </p>
 
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="img/award.png" class="img-responsive" alt="Logo" />
-                    <h5>10 Times Award</h5>
-                    <p>Get your blood tests delivered at<br />home collect a sample from the<br />news your blood test
+                    <h5 class="choose-header">10 Times Award</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collect a sample from the<br />news
+                        your blood test
                     </p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="img/cloud.png" class="img-responsive" alt="Logo" />
-                    <h5>Cloud Storage</h5>
-                    <p>Get your blood tests delivered at<br />home collect a sample from the<br />news your blood test
+                    <h5 class="choose-header">Cloud Storage</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collect a sample from the<br />news
+                        your blood test
                     </p>
                 </div>
             </div>
             <div class="row py-5">
-                <div class="col-md-4  text-center">
+                <div class="col-md-4 text-center">
                     <img src="img/customization.png" class="img-responsive" alt="Logo" />
-                    <h5>Customization</h5>
-                    <p>Get your blood tests delivered at<br />home collect a sample from the<br />news your blood test
+                    <h5 class="choose-header">Customization</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collect a sample from the<br />news
+                        your blood test
                     </p>
 
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="img/ux.png" class="img-responsive" alt="Logo" />
-                    <h5>Ux Planning</h5>
-                    <p>Get your blood tests delivered at<br />home collect a sample from the<br />news your blood test
+                    <h5 class="choose-header">Ux Planning</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collect a sample from the<br />news
+                        your blood test
                     </p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="img/customer.png" class="img-responsive" alt="Logo" />
-                    <h5>Customer Support</h5>
-                    <p>Get your blood tests delivered at<br />home collect a sample from the<br />news your blood test
+                    <h5 class="choose-header">Customer Support</h5>
+                    <p class="body-para">Get your blood tests delivered at<br />home collect a sample from the<br />news
+                        your blood test
                     </p>
                 </div>
             </div>
@@ -256,59 +286,69 @@
         </div>
     </section>
     <!-- Why you should choose end -->
+    
     <!-- unlimited featues section start -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="row text-left">
-                    <h3>Unlimied features <br />that we build</h3>
-
-                </div>
-                <div class="row py-5">
-                    <div class="col-md-4">
-                        <img src="img/devs.png" class="img-responsive" alt="Logo" />
-                        <h5>App Development</h5>
-                        <p>Get your blood tests delivered <br />home collect a sample from the<br />news your blood test
-                        </p>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <h3 class="design-header">Unlimied features <br />that we build</h3>
+                        <p class="body-para">The rise of mobile devices transform the way we <br>consume
+                            information entirely</p>
 
                     </div>
-                    <div class="col-md-4">
-                        <img src="img/ux.png" class="img-responsive" alt="Logo" />
-                        <h5>Ux Planning</h5>
-                        <p>Get your blood tests delivered <br />home collect a sample from the<br />news your blood test
-                        </p>
-                    </div>
+                    <div class="row py-5">
+                        <div class="col-md-6">
+                            <img src="img/devs.png" class="img-responsive" alt="Logo" />
+                            <h5 class="choose-header">App Development</h5>
+                            <p class="body-para">Get your blood tests delivered <br />home collect a sample from
+                                the<br />news your blood test
+                            </p>
 
-                </div>
-                <div class="row py-5">
-                    <div class="col-md-4">
-                        <img src="img/cloud.png" class="img-responsive" alt="Logo" />
-                        <h5>Cloud Storage</h5>
-                        <p>Get your blood tests delivered<br />home collect a sample from the<br />news your blood test
-                        </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/ux.png" class="img-responsive" alt="Logo" />
+                            <h5 class="choose-header">Ux Planning</h5>
+                            <p class="body-para">Get your blood tests delivered <br />home collect a sample from
+                                the<br />news your blood test
+                            </p>
+                        </div>
+
                     </div>
-                    <div class="col-md-4">
-                        <img src="img/customer.png" class="img-responsive" alt="Logo" />
-                        <h5>Customer Support</h5>
-                        <p>Get your blood tests delivered <br />home collect a sample from the<br />news your blood test
-                        </p>
+                    <div class="row py-5">
+                        <div class="col-md-6">
+                            <img src="img/cloud.png" class="img-responsive" alt="Logo" />
+                            <h5 class="choose-header">Cloud Storage</h5>
+                            <p class="body-para">Get your blood tests delivered<br />home collect a sample from
+                                the<br />news your blood test
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/customer.png" class="img-responsive" alt="Logo" />
+                            <h5 class="choose-header">Customer Support</h5>
+                            <p class="body-para">Get your blood tests delivered <br />home collect a sample from
+                                the<br />news your blood test
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="unlimited" class="col-lg-4">
-                <div class="col">
-                    <img src="img/phone1.png" class="img-responsive banner-img" alt="Logo" />
+                <div id="unlimited" class="col-lg-4">
+                    <div class="col">
+                        <img src="img/phone1.png" class="img-responsive banner-img" alt="Logo" />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- unlimited featues section end -->
+
     <!-- get awsome features start -->
     <section>
         <div class="container py-5">
             <div class="py-5 text-center">
-                <h3>Get awsome features, without<br />extra charges</h3>
-                <p>The rise of mobile devices transform the way we consume
+                <h3 class="design-header">Get awsome features, without<br />extra charges</h3>
+                <p class="body-para">The rise of mobile devices transform the way we consume
                     information entirely<br /> and the world's most elevant channel such asfacebook</p>
 
                 <div class="d-flex justify-content-center">
@@ -333,19 +373,20 @@
         </div>
     </section>
     <!-- get awsome features end -->
+
     <!-- testimonial start -->
     <section class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/testimonial.png" class="img-responsive  designby" alt="Logo" />
+                    <img src="img/testimonial.png" class="img-responsive  downloadimg" alt="Logo" />
                 </div>
-                <div class="col-md-6 d-flex align-items-center d-none d-lg-block">
-                    <h1>Meet client satisfaction<br />by using product</h1>
-                    <p>The rise of mobile devices transform the way we consume.<br />
+                <div class="col-md-6">
+                    <h1 class="smart-header">Meet client satisfaction<br />by using product</h1>
+                    <p class="body-para">The rise of mobile devices transform the way we consume.<br />
                         elevant channel such asfacebook</p>
-                    <h4>User friendly & customizale</h4>
-                    <p>Bring to the table win-win survival strategies to ensure proactive domi-<br />
+                    <h4 class="choose-header">User friendly & customizale</h4>
+                    <p class="body-para">Bring to the table win-win survival strategies to ensure proactive domi-<br />
                         nation.At the end of he day.going forward a new normalhat has <br />evolved from xis generation
                         on the runaway heading toward a <br />
                         steamlined cloud solution.User generated content in real time will<br />
@@ -355,18 +396,20 @@
         </div>
     </section>
     <!-- testimonial end -->
+
     <!-- frequently ask quesion start -->
     <section>
         <div class="container py-5">
             <div class="py-5 text-center">
-                <h3>Frequently ask questions</h3>
-                <p>The rise of mobile devices transform the way we consume
+                <h3 class="smart-header">Frequently ask questions</h3>
+                <p class="body-para">The rise of mobile devices transform the way we consume
                     information entirely<br /> and the world's most elevant channel such asfacebook</p>
 
                 <div class="d-flex justify-content-center">
                     <div class="col-md-8 question-details text-left py-2">
-                        <h6>How to contact with riders emergency?</h6>
-                        <p>Liverage agile framework to provide a robust synapisis for high level overviews.iterative
+                        <h6 class="choose-header">How to contact with riders emergency?</h6>
+                        <p class="body-para">Liverage agile framework to provide a robust synapisis for high level
+                            overviews.iterative
                             approches<br />
                             to corporate stratigies faster collaborate thinking further overall value position
                             originally<br />
@@ -375,22 +418,22 @@
                 </div>
                 <div class="d-flex justify-content-center py-2">
                     <div class="col-md-8 question-details text-left">
-                        <h6 class="py-2">App installation failed, how to update system information?</h6>
+                        <h6 class="py-2 fre-question">App installation failed, how to update system information?</h6>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center py-2">
                     <div class="col-md-8 question-details text-left">
-                        <h6 class="py-2">Website reopen taking time,hoe to improve?</h6>
+                        <h6 class="py-2 fre-question">Website reopen taking time,hoe to improve?</h6>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center py-2">
                     <div class="col-md-8 question-details text-left">
-                        <h6 class="py-2">New update fix all bugs and issues?</h6>
+                        <h6 class="py-2 fre-question">New update fix all bugs and issues?</h6>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center py-2">
                     <div class="col-md-8 question-details text-left">
-                        <h6 class="py-2">How to connect with riders emergency?</h6>
+                        <h6 class="py-2 fre-question">How to connect with riders emergency?</h6>
                     </div>
                 </div>
             </div>
@@ -400,41 +443,49 @@
 
 
     <!-- dowenload yoyr app start free start -->
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="row text-left">
-                    <h1>Dowenload our app now!</h1>
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row text-left">
+                        <h1 class="down-header">Dowenload our app now!</h1>
+                    </div>
+                    <div class="row text-left">
+                        <p class="body-para">The rise of mobile devices transform the way we consume information
+                            enterly<br /> and the world's
+                            most elevant channel such as facebook</p>
+                    </div>
+                    <div class="row py-5">
+                        <img src="img/app.png" class="img-responsive" alt="Logo" />
+                        <img src="img/goolge.png" class="img-responsive" alt="Logo" />
+                    </div>
                 </div>
-                <div class="row text-left">
-                    <p>The rise of mobile devices transform the way we consume information enterly<br /> and the world's
-                        most elevant channel such as facebook</p>
-                </div>
-                <div class="row py-5">
-                    <img src="img/app.png" class="img-responsive" alt="Logo" />
-                    <img src="img/goolge.png" class="img-responsive" alt="Logo" />
-                </div>
-            </div>
-            <div id="unlimited" class="col-lg-6">
-                <div class="col">
+                <div id="unlimited" class="col-lg-6">
+                    <!-- <div class="col"> -->
                     <img src="img/startfree.png" class="img-responsive downloadimg" alt="Logo" />
 
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- dowenload yoyr app start free end -->
     <footer class=" group">
-        <div class="text-center p-3">
-            <a href="#"><img src="img/Header.png" class="img-responsive" /></a>
-            <br />
-            <span class="f-content">Key</span>
-            <span class="f-content">Key Features</span>
-            <span class="f-content">Pricing</span>
-            <span class="f-content">Testiminial</span>
-            <span class="f-content">FAQ</span>
-            <p class="copy-right">copy right @ 2021. All rights reserved</p>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center p-3">
+                    <a href="#"><img src="img/Header.png" class="img-responsive" /></a>
+                    <br />
+                    <span class="f-content">Key</span>
+                    <span class="f-content">Key Features</span>
+                    <span class="f-content">Pricing</span>
+                    <span class="f-content">Testiminial</span>
+                    <span class="f-content">FAQ</span>
+                    <p class="copy-right">copy right @ 2021. All rights reserved</p>
+                </div>
+            </div>
         </div>
+
     </footer>
 
 </body>
