@@ -3,7 +3,6 @@
 }
 .body-para{
     font-size: 16px;
-    line-height: 26px;
     color: #616368;
     font-weight: 400;
 }
@@ -21,11 +20,10 @@
     background-color: #2500f9;
     border-radius: 38px;
     font-size: 15px;
-    line-height: 33px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Poppins";
-    padding: 20px 41px 20px 41px;
+    padding: 8px 30px 8px 30px;
 }
 .watch-demo{
     font-size: 16px;
@@ -66,6 +64,9 @@
     height: 500px;
 }
 .downloadimg{
+    height: 373px;
+}
+.awsome-banner{
     height: 100%;
     width: 100%;
 }
@@ -73,11 +74,6 @@
     background: url(../img/header2.png);
     background-repeat: no-repeat;
     background-position: bottom;
-}
-#vectorsmart{
-    background: url(../img/vectorsmart-background.png);
-    background-repeat: no-repeat;
-
 }
 #scnd-background{
     background: url(../img/animation-background.png);
@@ -92,7 +88,6 @@
 }
 .smart-jack1{
     font-size: 20px;
-    line-height: 58px;
     color: #f55767;
     font-weight: 600;
     font-family: "Poppins";
@@ -100,7 +95,6 @@
 }
 .smart-jack2{
     font-size: 20px;
-    line-height: 58px;
     color: #2563ff;
     font-weight: 600;
     font-family: "Poppins";
@@ -108,7 +102,6 @@
 }
 .smart-jack3{
     font-size: 20px;
-    line-height: 58px;
     color: #40975f;
     font-weight: 600;
     font-family: "Poppins";
@@ -126,6 +119,15 @@
     color: #242f51;
     font-weight: 600;
     font-family: "Poppins";
+   
+}
+.smart-header2{
+    font-size: 40px;
+    line-height: 50px;
+    color: #242f51;
+    font-weight: 600;
+    font-family: "Poppins";
+    border-right: 2px solid gray; 
 }
 .design-header{
     font-size: 36px;
@@ -141,11 +143,17 @@
     font-weight: 600;
     font-family: "Poppins"
 }
-.fre-question{
+.choose-header2{
     font-size: 20px;
-    line-height: 58px;
+    /* line-height: 58px; */
     color: #242f51;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: "Poppins"
+}
+.fre-question{
+    font-size: 15px;
+    color: #242f51;
+    font-weight: 600;
     font-family: "Poppins";
 }
 
@@ -184,28 +192,134 @@
 }
 .circle-pink{
     background-color: antiquewhite;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
-    margin-top: 12%;
+    margin-top: 7%;
 }
 .circle-blue{
     background-color: aliceblue;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
-    margin-top: 12%;
+    margin-top: 7%;
 }
 .circle-green{
     background-color: #e9fee9;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
-    margin-top: 12%;
+    margin-top: 7%;
 }
-/* #circle {
-    width: 100px;
-    height: 100px;
-    background: red;
-    border-radius: 50%
-  } */
+.circle-icon-w{
+    width: 40px;
+    height: 40px;
+    margin-top: -9px
+}
+.circle-pink2{
+    background-color: #fdede3;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 39%;
+}
+.circle-gray{
+    background-color: #f3f3ff;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 39%;
+}
+.circle-lightblue{
+    background-color: #e3ffed;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 39%;
+}
+.circle-orange{
+    background-color: #fff5d3;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 39%;
+}
+.circle-pink3{
+    background-color: #fdede3;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+   
+}
+.circle-gray2{
+    background-color: #f3f3ff;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+   
+}
+.circle-lightblue2{
+    background-color: #e3ffed;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    
+}
+.circle-orange2{
+    background-color: #fff5d3;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    
+}
+.circle-img {
+    width: 40px;
+    height: 40px;
+    margin-top: 19%;
+}
+
+.annual-div{
+    border-radius: 27px;
+    border: 1px solid gray;
+    width: 19%;
+    padding: 1px 19px 1px 0;
+}
+.card-p{
+    font-size: 16px;
+    line-height: 48px;
+    color: #999ca5;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+.mont{
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 48px;
+    color: #999ca5;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+.month-para{
+    font-size: 14px;
+    color: #999ca5;
+   font-weight: 400;
+   font-family: "Poppins";
+   text-align: center;
+}
+.free-trial{
+    font-size: 13px;
+    line-height: 28px;
+    color: #2500f9;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin-left: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .downloadimg {
+        height: 100%;
+        width: 100%;
+    }
+  }
