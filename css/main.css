@@ -5,6 +5,7 @@
     font-size: 16px;
     color: #616368;
     font-weight: 400;
+    font-family: "Poppins";
 }
 .navbar-custom{
     background-color: white;
@@ -17,13 +18,13 @@
 
 }
 .try-free-btn{
-    background-color: #2500f9;
-    border-radius: 38px;
-    font-size: 15px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Poppins";
-    padding: 8px 30px 8px 30px;
+    background-color: #2500f9!important;
+    border-radius: 38px!important;
+    font-size: 15px !important;
+    color: #ffffff!important;
+    font-weight: 700!important;
+    font-family: "Poppins"!important;
+    padding: 8px 30px 8px 30px!important;
 }
 .watch-demo{
     font-size: 16px;
@@ -51,8 +52,11 @@
 }
 .f-content{
     font-size: 16px;
-    font-family: 'Poppins';
-    padding-right: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding: 15px;
 }
 .copy-right{
     font-size: 14px;
@@ -61,10 +65,16 @@
 
 }
 .banner-img{
-    height: 500px;
+    height: 550px;
+}
+.downloadimg2{
+    height: 373px;
+    
 }
 .downloadimg{
-    height: 373px;
+    
+    height: 100%;
+    width: 100%;
 }
 .awsome-banner{
     height: 100%;
@@ -75,22 +85,29 @@
     background-repeat: no-repeat;
     background-position: bottom;
 }
-#scnd-background{
-    background: url(../img/animation-background.png);
-    background-repeat: no-repeat;
-}
+
 .question-details{
     background-color: aliceblue;
 }
 .extend-home-img{
-   height: 37px;
+   width: 16%;
    padding-right: 4%;
 }
+.extend-home-img1{
+    width: 13%;
+    padding-right: 4%;
+ }
+
+ .extend-home-img3{
+    width: 14%;
+    padding-right: 4%;
+ }
 .smart-jack1{
     font-size: 20px;
     color: #f55767;
     font-weight: 600;
     font-family: "Poppins";
+    padding-bottom: 3%;
     
 }
 .smart-jack2{
@@ -98,6 +115,7 @@
     color: #2563ff;
     font-weight: 600;
     font-family: "Poppins";
+    padding-bottom: 3%;
 
 }
 .smart-jack3{
@@ -105,6 +123,7 @@
     color: #40975f;
     font-weight: 600;
     font-family: "Poppins";
+    padding-bottom: 3%; 
 }
 .awsome-header{
     font-size: 36px;
@@ -112,6 +131,7 @@
     color: #242f51;
     font-weight: 600;
     font-family: "Poppins";
+    padding-bottom: 7px; 
 }
 .smart-header{
     font-size: 40px;
@@ -127,7 +147,7 @@
     color: #242f51;
     font-weight: 600;
     font-family: "Poppins";
-    border-right: 2px solid gray; 
+    border-right: 2px solid #c6bbbb; 
 }
 .design-header{
     font-size: 36px;
@@ -135,6 +155,7 @@
     color: #242f51;
     font-weight: 600;
     font-family: "Poppins";
+    padding-bottom: 2%;
 }
 .choose-header{
     font-size: 20px;
@@ -145,7 +166,6 @@
 }
 .choose-header2{
     font-size: 20px;
-    /* line-height: 58px; */
     color: #242f51;
     font-weight: 600;
     font-family: "Poppins"
@@ -158,7 +178,7 @@
 }
 
 .down-header{
-    font-size: 48px;
+    font-size: 45px;
     line-height: 58px;
     color: #242f51;
     font-weight: 600;
@@ -189,6 +209,114 @@
     margin-left: 21%;
     margin-top: 8%;
     width: 60%;
+}
+.sq-shape{
+  width: 20px;
+  height: 20px;
+  margin-left: 41%;
+  border: 3px solid gray;
+  position: relative;
+  opacity: .2;
+  -webkit-animation: rotation 5s infinite linear;
+}
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+.smgray-circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 5%;
+    border: 5px solid gray;
+    position: relative;
+    animation-name: example;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    opacity: .2;
+}
+
+
+@keyframes example {
+  0%   { left:50px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:350px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:50px; top:0px;}
+  }
+  .sm-circle1{
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    margin-left: 39%;
+    border: 4px solid coral;
+    position: relative;
+    -webkit-animation: rotate3d 4s linear infinite;
+    animation-name: exampl;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    opacity: .6;
+}
+@keyframes exampl {
+    0%   { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:200px; top:0px;}
+   
+  }
+  .ic-des{
+    -webkit-animation: rotation 5s infinite linear;
+    -webkit-animation: rotation 5s infinite linear;
+    font-size: 17px;
+    color: skyblue;
+
+  }
+  .sm-circle{
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    margin-left: 39%;
+    border: 4px solid coral;
+    position: relative;
+    animation-name: examples;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    opacity: .6;
+}
+.sm-circle-footer{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 4px solid coral;
+    position: relative;
+    animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    opacity: .6;
+}
+  @keyframes examples {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+  .sm-circle2{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 9%;
+    border: 4px solid coral;
+    position: relative;
+    animation-name: examples;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; 
+    opacity: .4;
 }
 .circle-pink{
     background-color: antiquewhite;
@@ -286,7 +414,7 @@
 }
 .card-p{
     font-size: 16px;
-    line-height: 48px;
+    /* line-height: 48px; */
     color: #999ca5;
     font-weight: 400;
     font-family: "Poppins";
@@ -317,9 +445,20 @@
     text-align: center;
     margin-left: 10%;
 }
-@media only screen and (max-width: 600px) {
-    .downloadimg {
-        height: 100%;
-        width: 100%;
-    }
-  }
+.marg{
+    margin-left: 13%;
+}
+.icon-des{
+    color: gray;
+    font-size: 25px!important;
+    padding: 15px;
+}
+.pa-x{
+    padding-bottom: 8%;
+}
+.pa-t{
+    padding-top: 9%;
+}
+.pa-b{
+    padding-bottom: 4%;
+}
