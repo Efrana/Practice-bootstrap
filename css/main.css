@@ -24,7 +24,25 @@
     color: #ffffff!important;
     font-weight: 700!important;
     font-family: "Poppins"!important;
-    padding: 8px 30px 8px 30px!important;
+    padding: 9px 30px 9px 30px!important;
+}
+.try-free-btn2{
+    background-color: #ddd!important;
+    border-radius: 38px!important;
+    font-size: 15px !important;
+    color: #ffffff!important;
+    font-weight: 700!important;
+    font-family: "Poppins"!important;
+    padding: 9px 30px 9px 30px!important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: #2500f9!important;
+    border-radius: 38px!important;
+    font-size: 15px !important;
+    color: #ffffff!important;
+    font-weight: 700!important;
+    font-family: "Poppins"!important;
+    padding: 9px 30px 9px 30px!important;
 }
 .watch-demo{
     font-size: 16px;
@@ -139,6 +157,7 @@
     color: #242f51;
     font-weight: 600;
     font-family: "Poppins";
+    padding-bottom: 2%;
    
 }
 .smart-header2{
@@ -160,6 +179,13 @@
 .choose-header{
     font-size: 20px;
     line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    font-family: "Poppins"
+}
+.com-name{
+    font-size: 20px;
+    /* line-height: 58px; */
     color: #242f51;
     font-weight: 600;
     font-family: "Poppins"
@@ -365,6 +391,22 @@
     border-radius: 50%;
     margin-left: 39%;
 }
+.circle-caro{
+    /* background-color: #e3ffed; */
+    border: 2px solid gray;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    margin-left: 39%;
+}
+.circle-caro1{
+    background-color: #e3ffed;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    margin-left: 39%;
+}
+
 .circle-orange{
     background-color: #fff5d3;
     height: 70px;
@@ -422,7 +464,7 @@
 }
 .mont{
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 48px;
     color: #999ca5;
     font-weight: 400;
@@ -453,6 +495,23 @@
     font-size: 25px!important;
     padding: 15px;
 }
+.card-head{
+    padding: 11%;
+    text-align: center;
+    background: #648880;
+    background: linear-gradient(to top, #d2e4f1,white 60% );
+    
+}
+.img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+.card-cus-body{
+    padding: 13%;
+    text-align: center;
+    
+}
 .pa-x{
     padding-bottom: 8%;
 }
@@ -461,4 +520,36 @@
 }
 .pa-b{
     padding-bottom: 4%;
+}
+.pa-t-l{
+padding-top: 2%;
+padding-left: 3%;
+}
+.marg{
+    margin-top: -21px;
+}
+.icon-custom{
+    margin-top: 28%;
+
+}
+.col-pa{
+    padding-top:4% ;
+    padding-bottom: 1%;
+}
+.star-icon{
+    color: gold;
+    font-size: 25px!important;
+    padding-right: 2%;
+}
+.star-icon2{
+    color: #ddd;
+    font-size: 25px!important;
+    padding-right: 2%;
+}
+.mon-anu{
+  
+    margin-left: 43%;
+}
+.card-bm{
+    margin-left: 27%;
 }
