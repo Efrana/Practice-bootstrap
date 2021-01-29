@@ -7,6 +7,12 @@
     font-weight: 400;
     font-family: "Poppins";
 }
+.body-cpara{
+    font-size: 16px;
+    color: #616368;
+    font-weight: 400;
+    font-family: "Poppins";
+}
 .navbar-custom{
     background-color: white;
 }
@@ -26,14 +32,14 @@
     font-family: "Poppins"!important;
     padding: 9px 30px 9px 30px!important;
 }
-.try-free-btn2{
-    background-color: #ddd!important;
+.nav-tabs .nav-link{
     border-radius: 38px!important;
     font-size: 15px !important;
-    color: #ffffff!important;
+    color: black!important;
     font-weight: 700!important;
     font-family: "Poppins"!important;
     padding: 9px 30px 9px 30px!important;
+    border: 1px solid gray!important;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
     background-color: #2500f9!important;
@@ -43,6 +49,7 @@
     font-weight: 700!important;
     font-family: "Poppins"!important;
     padding: 9px 30px 9px 30px!important;
+    border: 1px solid #2500f9!important;
 }
 .watch-demo{
     font-size: 16px;
@@ -183,9 +190,15 @@
     font-weight: 600;
     font-family: "Poppins"
 }
+.choose-header3{
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    font-family: "Poppins"
+}
 .com-name{
     font-size: 20px;
-    /* line-height: 58px; */
     color: #242f51;
     font-weight: 600;
     font-family: "Poppins"
@@ -351,6 +364,7 @@
     border-radius: 50%;
     margin-top: 7%;
 }
+
 .circle-blue{
     background-color: aliceblue;
     height: 70px;
@@ -392,7 +406,6 @@
     margin-left: 39%;
 }
 .circle-caro{
-    /* background-color: #e3ffed; */
     border: 2px solid gray;
     height: 44px;
     width: 44px;
@@ -448,15 +461,8 @@
     margin-top: 19%;
 }
 
-.annual-div{
-    border-radius: 27px;
-    border: 1px solid gray;
-    width: 19%;
-    padding: 1px 19px 1px 0;
-}
 .card-p{
     font-size: 16px;
-    /* line-height: 48px; */
     color: #999ca5;
     font-weight: 400;
     font-family: "Poppins";
@@ -522,8 +528,9 @@
     padding-bottom: 4%;
 }
 .pa-t-l{
-padding-top: 2%;
-padding-left: 3%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-bottom: 2%;
 }
 .marg{
     margin-top: -21px;
@@ -548,8 +555,209 @@ padding-left: 3%;
 }
 .mon-anu{
   
-    margin-left: 43%;
+    margin-left: 39%;
 }
 .card-bm{
     margin-left: 27%;
+}
+.ptb-3{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* #all media queries */
+
+@media only screen and (max-width: 767px) {
+    .ma-media{
+      margin-left: 6%;
+    }
+  
+    .circle-img {
+        width: 36px;
+        height: 36px;
+        margin-top: 19%;
+    }
+    .disply{
+        display: flex;
+    }
+    .down-header {
+        font-size: 24px;
+        line-height: 58px;
+        color: #242f51;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+        margin-left: 6%;
+    }
+    .choose-header3 {
+        font-size: 16px;
+        line-height: 30px;
+        color: #242f51;
+        font-weight: 600;
+        font-family: "Poppins";
+    }
+    .banner-img {
+       
+        width: 100%;
+    }
+    .home-p br{
+    display: none;
+    }
+    .style-h1 br{
+        display: none;
+    }
+    .home-p {
+        color: #616368;
+        font-family: 'poppins';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .py-5{
+        padding-bottom: 0rem!important;
+    }
+    .sm-circle2{
+        display: none;
+    }
+    .card-ma{
+        margin-left: 14%;
+    }
+    .downloadimg2 {
+        width: 100%;
+        height: 100%;
+    }
+    .ph-m{
+        margin-left: 3%;
+    }
+    .style-h1 {
+        font-size: 39px;
+        font-weight: bold;
+        font-family: "Poppins";
+    }
+    .editor-div {
+        width: 90%;
+        background-color: #daeff8;
+        border-radius: 35px;
+    }
+    .edit-css {
+        font-size: 12px;
+        line-height: 28px;
+        color: #242f51;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+    .watch-demo {
+        font-size: 13px;
+        line-height: 44px;
+        color: #2500f9;
+        font-weight: 400;
+        font-family: "Poppins";
+        margin-left: 3%;
+    }
+    .try-free-btn {
+        background-color: #2500f9!important;
+        border-radius: 38px!important;
+        font-size: 10px !important;
+        color: #ffffff!important;
+        font-weight: 700!important;
+        font-family: "Poppins"!important;
+        padding: 9px 30px 9px 30px!important;
+    }
+    .awsome-col{
+        margin-left: 6%!important;
+    }
+    .body-para {
+        font-size: 12px;
+        color: #616368;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+    .smart-header2 br {
+        display: none;
+    }
+    .smart-header {
+        font-size: 34px;
+        line-height: 43px;
+        color: #242f51;
+        font-weight: 600;
+        font-family: "Poppins";
+        padding-bottom: 2%;
+    }
+    .break br{
+        display: none;
+    }
+    .smart-header2 {
+        font-size: 25px;
+        line-height: 37px;
+        color: #242f51;
+        font-weight: 600;
+        font-family: "Poppins";
+        border-right: 2px solid #c6bbbb;
+    }
+    .design-header {
+        font-size: 23px;
+        line-height: 37px;
+        color: #242f51;
+        font-weight: 600;
+        font-family: "Poppins";
+        padding-bottom: 2%;
+    }
+    .unli-ml{
+         margin-left: 16%;
+    }
+    .mon-anu {
+        margin-left: 14%;
+    }
+    .card-bm {
+        margin-left: 14%;
+    }
+    .circle-caro{
+        border: 2px solid gray;
+        height: 37px;
+        width: 44px;
+        border-radius: 50%;
+        margin-left: 39%;
+    }
+    .circle-caro1{
+        background-color: #e3ffed;
+        height: 37px;
+        width: 44px;
+        border-radius: 50%;
+        margin-left: 39%;
+    }
+    .choose-header {
+        font-size: 18px;
+        color: #242f51;
+        font-weight: 600;
+        font-family: "Poppins";
+    }
+    .fre-question {
+        font-size: 12px;
+        color: #242f51;
+        font-weight: 600;
+        font-family: "Poppins";
+    }
+   .app-marg{
+       margin-left: 1%!important;
+   }
+   .img-w{
+    width: 45%;
+   }
+   .nav-marg{
+       margin-left: 0%!important;
+   }
+   .ptb-3{
+    /* padding-top: 3rem!important; */
+    padding-bottom: 0rem !important;
+   }
+     
+  }
+  @media only screen and (width: 375px){
+.editor-div {
+    width: 83%;
+    background-color: #daeff8;
+    border-radius: 35px;
+}
+}
+@media only screen and (width: 768px){
 }
