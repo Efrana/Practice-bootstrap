@@ -504,8 +504,8 @@
 .card-head{
     padding: 11%;
     text-align: center;
-    background: #648880;
-    background: linear-gradient(to top, #d2e4f1,white 60% );
+    /* background: #648880; */
+    background: linear-gradient(to top, #f1f2f3,white 60% );
     
 }
 .img {
@@ -541,7 +541,7 @@
 }
 .col-pa{
     padding-top:4% ;
-    padding-bottom: 1%;
+    /* padding-bottom: 1%; */
 }
 .star-icon{
     color: gold;
@@ -564,10 +564,57 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
+.ptb-4{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 /* #all media queries */
 
 @media only screen and (max-width: 767px) {
+    .btn-cus{
+       display: flex;
+       justify-content: center;
+    }
+    .cus-margin{
+        margin-bottom: 6%;
+    }
+    .display-sec{
+        display: none;
+    }
+    .pr-order{
+       order: 2;
+    }
+    .new-order{
+        display: flex;
+    }
+    .extend-home-img3 {
+        width: 50%;
+        padding: 15px;
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+    }
+    .extend-home-img {
+        width: 50%;
+        padding: 15px;
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+    }
+    .extend-home-img1 {
+        width: 50%;
+        padding: 15px;
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+    }
+    .ptb-4{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .img-ord{
+        order: 2;
+    }
+    .res-ordering{
+         display: flex;
+    }
     .ma-media{
       margin-left: 6%;
     }
@@ -692,7 +739,7 @@
         color: #242f51;
         font-weight: 600;
         font-family: "Poppins";
-        border-right: 2px solid #c6bbbb;
+        border-right: 0px solid #c6bbbb;
     }
     .design-header {
         font-size: 23px;
@@ -703,7 +750,7 @@
         padding-bottom: 2%;
     }
     .unli-ml{
-         margin-left: 16%;
+         margin-left: 7%;
     }
     .mon-anu {
         margin-left: 14%;
@@ -747,7 +794,7 @@
        margin-left: 0%!important;
    }
    .ptb-3{
-    /* padding-top: 3rem!important; */
+   
     padding-bottom: 0rem !important;
    }
      
@@ -760,4 +807,14 @@
 }
 }
 @media only screen and (width: 768px){
+    .downloadimg2 {
+        height: 100%;
+        width: 100%;
+    }
+    .break2 br{
+        display: none;
+    }
+    .card-bm {
+        margin-left: -17%;
+    }
 }
